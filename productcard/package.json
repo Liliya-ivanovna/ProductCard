@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    
     "deploy": "npm run build && gh-pages -d dist",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -11,6 +10,7 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "papaparse": "^5.5.3",
     "vue": "^3.2.13"
   },
   "devDependencies": {
